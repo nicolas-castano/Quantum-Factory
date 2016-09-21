@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="841.496px" height="90.619px" viewBox="0 124.91 841.496 90.619" enable-background="new 0 124.91 841.496 90.619"
+	 xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="40.248" y1="145.0295" x2="801.248" y2="145.0295">
+			<stop  offset="0" style="stop-color:#0091EA"/>
+			<stop  offset="0.2" style="stop-color:#00E5FF"/>
+			<stop  offset="0.4631" style="stop-color:#3AEBFF"/>
+			<stop  offset="0.5" style="stop-color:#42ECFF"/>
+			<stop  offset="0.75" style="stop-color:#8996FF"/>
+			<stop  offset="1" style="stop-color:#7519FF"/>
+		</linearGradient>
+
+			<line fill="none" stroke="url(#SVGID_1_)" stroke-width="3" stroke-miterlimit="10" x1="40.248" y1="145.03" x2="801.248" y2="145.03"/>
+		<polygon fill="#0091EA" points="13.671,166.53 1.301,145.53 13.671,124.53 38.414,124.53 50.784,145.53 38.414,166.53 		"/>
+		<polygon fill="#8A8BFF" points="606.616,167.577 594.245,146.244 606.616,124.91 631.357,124.91 643.729,146.244 631.357,167.577
+					"/>
+		<polygon fill="#00FFFF" points="408.968,167.577 396.597,146.244 408.968,124.91 433.709,124.91 446.08,146.244 433.709,167.577
+					"/>
+		<polygon fill="#1ADFFA" points="211.32,166.53 198.949,145.53 211.32,124.53 236.062,124.53 248.432,145.53 236.062,166.53 		"/>
+		<polygon fill="#7519FF" points="804.264,166.53 791.893,145.53 804.264,124.53 829.006,124.53 841.376,145.53 829.006,166.53
+			"/>
+	</g>
+	<text transform="matrix(1 0 0 1 0.2524 197.2053)"><tspan x="0" y="0" fill="#0091EA" font-family="Montserrat" font-size="13.3857">Briefing e </tspan><tspan x="0" y="16.063" fill="#0091EA" font-family="Montserrat" font-size="13.3857">investigación</tspan></text>
+	<text transform="matrix(1 0 0 1 175.6899 197.2053)"><tspan x="0" y="0" fill="#1ADFFA" font-family="Montserrat" font-size="13.3857">Presupuesto y </tspan><tspan x="1.673" y="16.063" fill="#1ADFFA" font-family="Montserrat" font-size="13.3857">especificación</tspan></text>
+	<text transform="matrix(1 0 0 1 392.646 197.2053)"><tspan x="0" y="0" fill="#00FFFF" font-family="Montserrat" font-size="13.3857">Diseño y </tspan><tspan x="-9.812" y="16.063" fill="#00FFFF" font-family="Montserrat" font-size="13.3857">prototipado</tspan></text>
+	<g>
+		<text transform="matrix(1 0 0 1 558.416 197.2053)"><tspan x="0" y="0" fill="#8A8BFF" font-family="Montserrat" font-size="13.3857">Desarrollo basado </tspan><tspan x="-19.482" y="16.063" fill="#8A8BFF" font-family="Montserrat" font-size="13.3857">en metodológicas ágiles</tspan></text>
+	</g>
+	<text transform="matrix(1 0 0 1 765.9336 197.2053)"><tspan x="0" y="0" fill="#7519FF" font-family="Montserrat" font-size="13.3857">Entrega de</tspan><tspan x="11.418" y="16.063" fill="#7519FF" font-family="Montserrat" font-size="13.3857">producto</tspan></text>
+</g>
+</svg>

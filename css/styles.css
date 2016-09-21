@@ -1,0 +1,287 @@
+body, h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #546e7a; }
+
+nav {
+  background: #fff;
+  box-shadow: none;
+  height: 80px;
+  line-height: 80px;
+  position: fixed; }
+  nav .nav-wrapper {
+    padding: 0 30px; }
+    nav .nav-wrapper .logo-img img {
+      max-width: 200px;
+      padding-top: 15px; }
+  nav .button-collapse {
+    color: #546e7a !important;
+    margin-top: 2.5%; }
+  nav ul li:hover {
+    background: none; }
+  nav ul li a {
+    color: #546e7a;
+    text-transform: uppercase;
+    font-size: 13px; }
+    nav ul li a:hover {
+      color: #2196f3; }
+  nav .isotipo-nav {
+    width: 50%;
+    margin-left: 25%; }
+
+h1 {
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 0.9; }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px; }
+
+h3 {
+  font-weight: bold;
+  font-size: 35px; }
+
+h4 {
+  font-size: 25px; }
+
+p {
+  font-size: 1.2rem; }
+
+header {
+  background-image: url("../img/less-is-more.png");
+  background-size: cover;
+  min-height: 600px !important;
+  color: #546e7a; }
+  header .title-container {
+    text-align: left;
+    padding-top: 100px !important; }
+  header .subtitle p {
+    font-size: 1.4rem !important; }
+
+.hire-us {
+  border: 4px solid #2196f3;
+  line-height: 4;
+  margin-top: 10px;
+  color: #2196f3;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .hire-us:hover {
+    background-color: #2196f3;
+    color: white; }
+
+#txt-animate {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear 0s;
+  -moz-transition: opacity 0.5s linear 0s;
+  -o-transition: opacity 0.5s linear 0s;
+  transition: opacity 0.5s linear 0s; }
+
+section {
+  padding: 5% 0 5% 0; }
+
+.arrow:hover {
+  animation: shake 300ms 3 linear;
+  -moz-animation: shake 300ms 3 linear;
+  -webkit-animation: shake 300ms 3 linear;
+  -o-animation: shake 300ms 3 linear; }
+.arrow a {
+  font-size: 45px;
+  color: #2196f3; }
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 5px); }
+  50% {
+    transform: translate(0, -5px); }
+  100% {
+    transform: translate(0, 0); } }
+@-moz-keyframes shake {
+  0% {
+    transform: translate(0, 5px); }
+  50% {
+    transform: translate(0, -5px); }
+  100% {
+    transform: translate(0, 0); } }
+@-webkit-keyframes shake {
+  0% {
+    transform: translate(0, 5px); }
+  50% {
+    transform: translate(0, -5px); }
+  100% {
+    transform: translate(0, 0); } }
+@-ms-keyframes shake {
+  0% {
+    transform: translate(0, 5px); }
+  50% {
+    transform: translate(0, -5px); }
+  100% {
+    transform: translate(0, 0); } }
+.img-container img {
+  width: 100%; }
+
+.card-h {
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: white; }
+  .card-h .card-h-img {
+    padding: 0 !important; }
+  .card-h .card-h-content {
+    padding: 15px 30px 0 30px; }
+
+input[type=email] + label:after {
+  width: 100px; }
+
+.materialize-textarea {
+  min-height: 4.9rem !important; }
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #2196f3; }
+
+.input-field input[type=email]:focus + label {
+  color: #2196f3; }
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #2196f3; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3; }
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3; }
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3; }
+
+.no-float {
+  float: none !important; }
+
+.margin-top {
+  margin-top: 5%; }
+
+.margin-right {
+  margin-right: 3%; }
+
+#email-success {
+  background-image: url("../img/preparing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3F3F3F; }
+
+.shadow {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6); }
+
+.ion-ios-arrow-left {
+  font-size: 1.8em !important; }
+
+.ion-ios-arrow-left:before {
+  margin-right: 2px; }
+
+.show-on-small {
+  display: none; }
+
+.slider {
+  height: 190px !important; }
+  .slider .slides {
+    background: none;
+    height: 150px !important; }
+    .slider .slides li img {
+      background-size: auto;
+      background-repeat: no-repeat; }
+  .slider .indicators .indicator-item.active {
+    background-color: #2196f3; }
+
+#nosotros {
+  background-image: url("../img/notepad.jpg");
+  background-size: cover;
+  padding: 15% 0 15% 0; }
+
+.proceso {
+  background-image: url("../img/meeting.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.separador-contenido {
+  padding: 5% 0 5% 0 !important; }
+
+.contacts {
+  font-size: 1.2em; }
+
+.other-contacts {
+  font-size: 2em;
+  margin-top: 5%; }
+  .other-contacts .margin-top {
+    margin-top: 1.2%; }
+
+footer {
+  padding: 2% 0 2% 0;
+  font-size: 0.8em; }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem; }
+
+  header {
+    background-position-x: -350px;
+    min-height: 550px !important; }
+    header .title-container {
+      padding-top: 20px !important; }
+
+  nav .nav-wrapper {
+    padding: 0 20px; }
+
+  .servicios-tiles .col.s6 {
+    width: 50% !important;
+    margin-bottom: 15%; }
+    .servicios-tiles .col.s6 p {
+      margin: 0; }
+
+  .process-line img {
+    width: 100%; }
+
+  #clientes .margin-right {
+    margin-right: 10%; }
+
+  .new-h1-size {
+    font-size: 3em; }
+
+  .new-h4-size {
+    font-size: 1.5em; }
+
+  .back-button {
+    margin-top: 15%; }
+
+  #email-success {
+    background-position-x: -50px; }
+
+  .left {
+    left: 1.5rem !important; }
+
+  .show-on-small {
+    display: block; }
+
+  .proceso {
+    background-image: url("../img/meeting.png");
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position-x: -600px; }
+
+  .contacts {
+    font-size: 1.3em; }
+    .contacts div {
+      margin-bottom: 5%; }
+
+  .other-contacts {
+    font-size: 3.4em; }
+    .other-contacts .margin-top {
+      margin-top: 5%; } }
+
+/*# sourceMappingURL=styles.css.map */

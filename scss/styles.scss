@@ -1,0 +1,334 @@
+@import "variables";
+
+body, h1, h2{
+  font-family: 'Montserrat', sans-serif;
+  color: $third;
+}
+
+nav{
+  background: #fff;
+  box-shadow: none;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+
+  .nav-wrapper{
+    padding: 0 30px;
+
+    .logo-img{
+      img{
+        max-width: 200px;
+        padding-top: 15px;
+      }
+    }
+  }
+
+  .button-collapse{
+    color: $third !important;
+    margin-top: 2.5%;
+  }
+
+  ul{
+    li{
+      &:hover{
+        background: none;
+      }
+
+      a{
+        color: $third;
+        text-transform: uppercase;
+        font-size: 13px;
+
+        &:hover{
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .isotipo-nav{
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+h1{
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 0.9;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+header{
+  background-image: url("../img/less-is-more.png");
+  background-size: cover;
+  min-height: 600px !important;
+  color: $third;
+
+  .title-container{
+    text-align: left;
+    padding-top: 100px !important;
+  }
+
+  .subtitle{
+    p{
+      font-size: 1.4rem !important;
+    }
+  }
+}
+
+.hire-us{
+  border: 4px solid $primary;
+  line-height: 4;
+  margin-top: 10px;
+  color: $primary;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  &:hover{
+    background-color: $primary;
+    color: white;
+  }
+}
+
+#txt-animate{
+  opacity:0;
+	-webkit-transition:opacity 0.5s linear 0s;
+  -moz-transition:opacity 0.5s linear 0s;
+  -o-transition:opacity 0.5s linear 0s;
+	transition:opacity 0.5s linear 0s;
+}
+
+section{
+  padding: 5% 0 5% 0;
+}
+
+.arrow{
+  &:hover{
+    animation: shake 300ms 3 linear;
+    -moz-animation: shake 300ms 3 linear;
+    -webkit-animation: shake 300ms 3 linear;
+    -o-animation: shake 300ms 3 linear;
+  }
+
+  a{
+    font-size: 45px;
+    color: $primary;
+  }
+}
+
+// INICIO ANIMACIONES DE FLECHA//
+@keyframes shake{
+  0% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-moz-keyframes shake{
+  0% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes shake{
+  0% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-ms-keyframes shake{
+  0% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+// FIN ANIMACIONES DE FLECHA//
+
+.img-container{
+  img{
+    width: 100%;
+  }
+}
+
+.card-h{
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+  color: white;
+
+  .card-h-img{
+    padding: 0 !important;
+  }
+
+  .card-h-content{
+    padding: 15px 30px 0 30px;
+  }
+}
+
+input[type=email]+label:after{
+  width: 100px;
+}
+
+.materialize-textarea{
+    min-height: 4.9rem !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: $primary;
+}
+.input-field input[type=email]:focus + label {
+ color: $primary;
+}
+textarea.materialize-textarea:focus:not([readonly])+label{
+ color: $primary;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid $primary;
+ box-shadow: 0 1px 0 0 $primary;
+}
+.input-field input[type=email]:focus {
+ border-bottom: 1px solid $primary;
+ box-shadow: 0 1px 0 0 $primary;
+}
+textarea.materialize-textarea:focus:not([readonly]){
+ border-bottom: 1px solid $primary;
+ box-shadow: 0 1px 0 0 $primary;
+}
+
+.no-float{
+  float: none !important;
+}
+
+.margin-top{
+  margin-top: 5%;
+}
+
+.margin-right{
+  margin-right: 3%;
+}
+
+#email-success{
+  background-image: url("../img/preparing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3F3F3F;
+}
+
+.shadow{
+  text-shadow: $text-shadow;
+}
+
+.ion-ios-arrow-left{
+  font-size: 1.8em !important;
+}
+
+.ion-ios-arrow-left:before{
+  margin-right: 2px;
+}
+
+.show-on-small{
+  display: none;
+}
+
+.slider{
+  height: 190px !important;
+
+  .slides{
+    background: none;
+    height: 150px !important;
+
+    li{
+      img{
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .indicators .indicator-item.active{
+    background-color: $primary;
+  }
+}
+
+#nosotros{
+  background-image: url("../img/notepad.jpg");
+  background-size: cover;
+  padding: 15% 0 15% 0;
+}
+
+.proceso{
+  background-image: url("../img/meeting.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.separador-contenido{
+  padding: 5% 0 5% 0 !important;
+}
+
+.contacts{
+  font-size: 1.2em;
+}
+
+.other-contacts{
+  font-size: 2em;
+  margin-top: 5%;
+
+  .margin-top{
+    margin-top: 1.2%;
+  }
+}
+
+footer{
+  padding: 2% 0 2% 0;
+  font-size: 0.8em;
+}
+
+@import "mobile";
